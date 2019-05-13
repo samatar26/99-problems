@@ -11,7 +11,7 @@ Solution
 
 let rec last_solution = function 
   | [] -> None 
-  | [x] -> x 
+  | [x] -> Some x 
   | _::t -> last_solution t
 
 
